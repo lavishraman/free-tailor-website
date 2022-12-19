@@ -1,0 +1,84 @@
+body {
+	font-family: 'Lora', serif;
+}
+a {
+	transition: all 0.3s ease;
+}
+.weight-500 {
+	font-weight: 500;
+}
+.navbar-nav {
+	font-weight: 600;
+}
+.btn {
+	position: relative;
+	padding: 13.5px 36px;
+	font-weight: 700;
+	border-radius:0;
+	font-size: 13px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.btn-primary {
+background-color:#0d4a98;
+}
+.process-bg {
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/3182763/pexels-photo-3182763.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+	background-size: cover;
+	background-position: center;
+}
+
+
+.contact-bg {
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(https://annedece.sirv.com/Images/banner-img-one.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+}
+h1,h2,h3,h4,h5,h6{
+font-family: 'Libre Caslon Display', serif;	
+}
+.ww img{
+width:70px;
+margin-bottom:30px;	
+}
+.carousel-caption h5{
+font-size:90px;	
+}
+.carousel-caption p{
+font-size:24px;	
+}
+.carousel-caption {
+    position: absolute;
+    right:5%;
+    top:40%;
+    left:15%;
+    z-index: 10;
+    padding-top:0;
+    padding-bottom:0;
+    text-align:left;
+	color:#222;
+}
+input{
+border-radius:0 !important;		
+}
+button{
+border-radius:0 !important;		
+}
+::placeholder{
+font-size:14px;	
+}
+button.btn{
+font-size:15px !important;	
+}	
+.active{
+color:#0d4a98 !important;	
+}
+@media(max-width:960px){
+.carousel-caption h5{
+font-size:40px;	
+}	
+.carousel-caption p{
+display:none;
+}
+}
